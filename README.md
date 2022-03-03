@@ -1,7 +1,7 @@
 # Undergraduate Economics Senior Honor Thesis
-## Tax Revenue Cyclicality and Income Inequality: Evidence from ZIP Code Areas during the Global Financial Crisis
+**Tax Revenue Cyclicality and Income Inequality: Evidence from ZIP Code Areas during the Global Financial Crisis**  
 
-## Yiyang Chen
+**Yiyang Chen**  
 
 For my honor thesis, I’m looking at how income inequality in a certain region affects local tax revenue cyclicality.   
 

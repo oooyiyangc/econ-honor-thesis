@@ -1,14 +1,14 @@
 # Datasets
-analysis/data/*
+analysis/data/
 
 # Output
-analysis/output/*
+analysis/output/
 
 # Literature
-literature/*
+literature/
 
 # .idea
-.idea/*
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

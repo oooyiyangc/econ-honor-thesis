@@ -17,8 +17,18 @@ def merge_year(year):
 
 
 def merge_all():
-    pass
+    year_list = range(1991, 2008)
+    for year in year_list:
+        merge_year(year)
 
+def merge_all_to_single_file():
+    merged = pd.DataFrame()
+    for datafile in glob.glob(f"{CLEANEDDATA_DIR}*.csv"):
+        current = pd.read_csv(datafile)
+        merged = pd.concat([merged, current])
+    merged.to_csv(CLEANEDDATA_DIR + "merged/countyincome_merged.csv", index=False)
 
 if __name__ == "__main__":
-    merge_year(2001)
+    # merge_all()
+    merge_all_to_single_file()
+    # merge_year(2009)

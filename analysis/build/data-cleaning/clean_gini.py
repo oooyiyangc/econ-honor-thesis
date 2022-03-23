@@ -51,16 +51,16 @@ def clean_all_const():
     for i, file in enumerate(files):
         if i == 0:
             cleaned = clean_census_gini(GINI_DIR + file)
-            cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(1989, 1995))])
+            cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(1989, 1996))])
         elif i == 1:
             cleaned = clean_census_gini(GINI_DIR + file)
-            cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(1996, 2005))])
+            cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(1996, 2006))])
         elif i == 2:
             cleaned = clean_acs_gini(GINI_DIR + file)
-            cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(2006, 2010))])
+            cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(2006, 2011))])
         elif i == 3:
             cleaned = clean_acs_gini(GINI_DIR + file)
-            cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(2011, 2015))])
+            cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(2011, 2016))])
         elif i == 4:
             cleaned = clean_acs_gini(GINI_DIR + file)
             cleaned_all = pd.concat([cleaned_all, interpolate(cleaned, np.arange(2016, 2020))])

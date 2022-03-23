@@ -12,7 +12,7 @@ def merge_income_and_gini(income, gini):
     merged_complete = merged[merged["GEOFIPS"].isin(valid_counties)]
     merged_complete = merged_complete[
         ["YEAR", "GEOFIPS", "GINI", "NUM_RETURN", "NUM_EXEMPT", "AGI", "WAGES_SALARIES", "DIVIDENDS", "INTEREST"]]
-
+    merged_complete["TAXABLE_TOTAL"] = merged["WAGES_SALARIES"] + merged["DIVIDENDS"] + merged["INTEREST"]
     return merged_complete
 
 if __name__ == "__main__":

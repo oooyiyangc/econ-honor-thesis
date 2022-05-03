@@ -1,5 +1,5 @@
-# Undergraduate Economics Senior Honor Thesis
-**Tax Revenue Cyclicality and Income Inequality: Evidence from U.S. Counties From 1989 to 2019**  
+# Tax Revenue Cyclicality and Income Inequality: Evidence from U.S. Counties From 1989 to 2019
+**Undergraduate Economics Senior Honor Thesis**  
 
 **Yiyang Chen**  
 
